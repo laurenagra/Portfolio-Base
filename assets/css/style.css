@@ -26,10 +26,10 @@ header {
 body {
     background-color: #6C584C;
   }
-
+/*Try to find a way to gradient the link background out */
   a{
     color: #f0ead2;
-    background-color: linear-gradient(to right, rgba(169, 132, 103, 0) rgba(169, 132, 103, 1) );
+    background-color: linear-gradient(to bottom, #A98467 #0000 );
     font-size: 40px;
     font-family: Papyrus;
     border-radius: 5%;
