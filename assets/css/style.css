@@ -27,6 +27,19 @@ body {
     background-color: #6C584C;
   }
 
+  a{
+    color: #f0ead2;
+    background-color: #a98467;
+    font-size: 40px;
+    font-family: Papyrus;
+    border-radius: 5%;
+  }
+
+  a:hover{
+    color: #adc178;
+    font-size: 50px;
+  }
+
 #flex-container{
     display: flex;
     flex-wrap: wrap;
