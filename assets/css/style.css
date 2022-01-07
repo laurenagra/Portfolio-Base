@@ -1,0 +1,84 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+    align-items: center;
+}
+
+#outline{
+    background-color: #b5838d;
+    overflow: hidden;
+    text-align: center;
+    border: solid black 4px;
+    border-radius: 0 0 10px 10px;
+}
+
+#logo{
+    background-color: #A98467;
+    border-radius: 0 0 10px 10px;
+    color: #F0EAD2;
+    padding: 10px;
+    font-size: 40px;
+    font-family: Papyrus; 
+  }
+
+  body {
+    background-color: #6C584C;
+  }
+
+#flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-item{
+    flex: 1 1 25%;
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  #about-me{
+    border-style: dashed #b5838d;
+    border-width: 3px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 10px 10px 5px #ADC178;
+    margin: 20px;
+    position: relative;
+    position: relative;
+    height: 200px;
+    background-color: #DDE5B6;
+    font-family: "Mv Boli";
+  }
+
+  #trad-highway{
+    border-style: dashed #b5838d;
+    border-width: 3px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 10px 10px 5px #ADC178;
+    margin: 20px;
+    position: relative;
+    position: relative;
+    height: 200px;
+    background-color: #DDE5B6;
+    font-family: "Mv Boli";
+    flex-direction: row;
+  }
+
+  section p {
+    justify-content: right;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .image{
+    border: 3px solid;
+    justify-items: left;
+  }
