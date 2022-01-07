@@ -10,7 +10,7 @@ header {
     background-color: #b5838d;
     overflow: hidden;
     text-align: center;
-    border: solid black 4px;
+    border: solid #6c584c 4px;
     border-radius: 0 0 10px 10px;
 }
 
@@ -23,7 +23,7 @@ header {
     font-family: Papyrus; 
   }
 
-  body {
+body {
     background-color: #6C584C;
   }
 
@@ -32,7 +32,10 @@ header {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    padding: 10px;
+    padding: 30px;
+    border: solid;
+    border-radius: 5%;
+    border-color: #6c584c;
     align-items: center;
     justify-content: center;
   }
@@ -43,7 +46,7 @@ header {
     padding: 10px;
   }
 
-  #about-me{
+#about-me{
     border-style: dashed #b5838d;
     border-width: 3px;
     padding: 20px;
@@ -55,9 +58,10 @@ header {
     height: 200px;
     background-color: #DDE5B6;
     font-family: "Mv Boli";
+    border-radius: 5%;
   }
 
-  #trad-highway {
+#trad-highway {
     border-style: dashed #b5838d;
     border-width: 3px;
     padding: 20px;
@@ -69,16 +73,46 @@ header {
     height: 200px;
     background-color: #DDE5B6;
     font-family: "Mv Boli";
+    border-radius: 5%; 
 
   }
 
-  section p {
+section p {
     justify-content: right;
     flex-wrap: wrap;
     padding: 20px;
   }
 
-  .image{
+.image{
     border: 3px solid;
-    justify-items: left;
+    margin: 10px;
+    border-radius: 5%;
   }
+
+  h4{
+    align-items: bottom;
+  }
+
+  .contact-container {
+    display: flex;
+    border-style: dashed #b5838D;
+    border-width: 3px;
+    background-color: #DDE5B6;
+    padding: 10px; 
+    box-shadow: 5px 5px 3px #ADC178;
+    margin: 40px; 
+    position: relative;
+    height: 200px;
+    font-family: "Mv Boli";
+    border-radius: 5%;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid #ADC178;
+    border-radius: 5%;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
