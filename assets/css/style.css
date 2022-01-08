@@ -26,11 +26,11 @@ header {
 body {
     background-color: #6C584C;
   }
-/*Try to find a way to gradient the link background out */
+
   a{
     color: #f0ead2;
     background-color: #A98467;
-    font-size: 20px;
+    font-size: 40px;
     font-family: Papyrus;
     border-radius: 5%;
     display: inline-block;
@@ -38,12 +38,11 @@ body {
 
   a:hover{
     color: #adc178;
-    font-size: 30px;
+    font-size: 50px;
   }
 
 #flex-container{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     padding: 30px;
@@ -58,6 +57,7 @@ body {
     flex: 1 1 25%;
     list-style-type: none;
     padding: 10px;
+    justify-content: space-around;
   }
 
 #about-me{
@@ -73,6 +73,7 @@ body {
     background-color: #DDE5B6;
     font-family: "Mv Boli";
     border-radius: 5%;
+    font-size: 1.3em;
   }
 
 #trad-highway {
@@ -88,6 +89,7 @@ body {
     background-color: #DDE5B6;
     font-family: "Mv Boli";
     border-radius: 5%; 
+    font-size: 1.3em;
 
   }
 
@@ -106,7 +108,9 @@ section p {
   }
 
   h4{
-    align-items: bottom;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
   }
 
   #portfolio{
@@ -122,6 +126,7 @@ section p {
     background-color: #DDE5B6;
     font-family: "Mv Boli";
     border-radius: 5%;
+    font-size: 1.3em;
   }
 
   #contact{
@@ -137,8 +142,55 @@ section p {
     background-color: #DDE5B6;
     font-family: "Mv Boli";
     border-radius: 5%;
+    justify-content: center;
+    font-size: 1.3em;
+  }
+  
+  .icons{
+    width: 75%;
+    align-content: center;
   }
 
-  .logos{
-    size: 50%;
+  .fa-ul{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icons h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+  }
+
+  .icons p{
+    display: flex;
+    justify-content: center;
+  }
+
+  footer{
+    display: flex; 
+    background-color: #844506;
+    margin: 10px;
+    font-family: Papyrus;
+    padding: 5px;
+    font-size: 1em;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  footer p {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mission{
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    margin: 3px;
+  }
+
+  .farewell{
+    display: flex;
+    justify-content: flex-end;
   }
