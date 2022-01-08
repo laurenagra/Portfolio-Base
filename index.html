@@ -15,15 +15,16 @@
         <ul id="flex-container">
             <!-- <li class="flex-item"><button onclick="myFuntion()">Home</button></li> -->
             <li class="flex-item"><a href="logo">Home</a></li>
-            <li class="flex-item"><button onclick="myFunction()">Portfolio</button></li>
-            <li class="flex-item"><button onclick="myFunction()" >About Me</button></li>
-            <li class="flex-item"><button onclick="myFunction()">Contact</button></li>
+            <li class="flex-item"><a href="about-me">About Me</a></li>
+            <li class="flex-item"><a href="trad-highway">Projects</a></li>
+            <li class="flex-item"><a href="portfolio">Portfolio</a></li>
+            <li class="flex-item"><a href="contact">Contact</a></li>
           </ul>
     </nav>
 
     <main>
         <section id="about-me">
-            <img style="margin:10px ;display:block" src="https://scontent.fatl1-2.fna.fbcdn.net/v/t39.30808-6/248411108_10220231928044717_8804691953640525203_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=dvtfuaNqyjwAX_bNhAe&_nc_ht=scontent.fatl1-2.fna&oh=00_AT9vae31YoYxy_f1Jwh_vL0d333zbwTpLASv9vKtUQbOXw&oe=61DAC1CD" alt="A picture of Lauren" class="image">
+            <img src="https://scontent.fatl1-2.fna.fbcdn.net/v/t39.30808-6/248411108_10220231928044717_8804691953640525203_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=dvtfuaNqyjwAX_bNhAe&_nc_ht=scontent.fatl1-2.fna&oh=00_AT9vae31YoYxy_f1Jwh_vL0d333zbwTpLASv9vKtUQbOXw&oe=61DAC1CD" alt="A picture of Lauren" class="image">
             <div>
                 <h2>Meet Lauren</h2>
                 <p>
@@ -33,9 +34,9 @@
         </section>
 
         <section id="trad-highway">
-            <img style="margin:10px ;display:block" src="./assets/images/trad-highway.png" alt="Image of Tradition Highway Magazine Cover" class="image">
+            <img src="./assets/images/trad-highway.png" alt="Image of Tradition Highway Magazine Cover" class="image">
             <div>
-                <h2>Traditions Highway Project</h2>
+                <h2> Traditions Highway Project</h2>
                 <p>
                     A travel magazine designed to show incoming visitors the beauty of traveling along Highway 15 down through parts of rural Georgia. This publication showcases articles featuring 6 of Georgia's eastern counties, each offering unique experiences and insights into the history and culture of the area.
                 </p>
@@ -46,23 +47,27 @@
                 </h4>
             </div>
         </section>
-<!--Find a way to get contact container image placed within flex-child magenta and still allow for proper resizing-->
-        <section class="contact-container">
-            <img style="margin:5px ;display:block" src="./assets/images/portfolio-placeholder.png" alt="Placeholder for future projects" class="image">
-                <div class="flex-child magenta">
-                  <!--  <img style="margin:5px ;display:block" src="./assets/images/portfolio-placeholder.png" alt="Placeholder for future projects" class="image"> -->
-                  Flex Column 1
-                  <!--Fill this with placeholder h4 and p-->
-                </div>
-                
-                <div class="flex-child green">
-                    <!--Contact Info. Maybe do another flexbox column with logos and links to social medias. Email, insta, twitter, linkedin, ?? maybe more-->
-                  Flex Column 2
-                  <!--Consider making the contact info a form? Could submit to me and I could reach out?-->
-                </div>
+
+        <section id="portfolio">
+            <img src="./assets/images/portfolio-placeholder.png" alt="Placeholder image" class="image">
+            <div>
+                <h2>Future Project</h2>
+                <p>
+                    Not yet completed
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div>
+                <p><img src="./assets/images/linked-in.png" class="image"></p>
+            </div>
+        </section>
+
+
                 
               
-        </section>
+    
 
     </main>
 

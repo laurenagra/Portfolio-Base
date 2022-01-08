@@ -29,15 +29,16 @@ body {
 /*Try to find a way to gradient the link background out */
   a{
     color: #f0ead2;
-    background-color: linear-gradient(to bottom, #A98467 #0000 );
-    font-size: 40px;
+    background-color: #A98467;
+    font-size: 20px;
     font-family: Papyrus;
     border-radius: 5%;
+    display: inline-block;
   }
 
   a:hover{
     color: #adc178;
-    font-size: 50px;
+    font-size: 30px;
   }
 
 #flex-container{
@@ -100,32 +101,44 @@ section p {
     border: 3px solid;
     margin: 10px;
     border-radius: 5%;
+    margin: 10px;
+    display: block;
   }
 
   h4{
     align-items: bottom;
   }
 
-  .contact-container {
-    display: flex;
-    border-style: dashed #b5838D;
+  #portfolio{
+    border-style: dashed #b5838d;
     border-width: 3px;
-    background-color: #DDE5B6;
-    padding: 10px; 
-    box-shadow: 5px 5px 3px #ADC178;
-    margin: 40px; 
+    padding: 20px;
+    display: flex;
+    box-shadow: 10px 10px 5px #ADC178;
+    margin: 40px;
+    position: relative;
     position: relative;
     height: 200px;
+    background-color: #DDE5B6;
     font-family: "Mv Boli";
     border-radius: 5%;
-}
+  }
 
-.flex-child {
-    flex: 1;
-    border: 2px solid #ADC178;
+  #contact{
+    border-style: dashed #b5838d;
+    border-width: 3px;
+    padding: 20px;
+    display: flex;
+    box-shadow: 10px 10px 5px #ADC178;
+    margin: 40px;
+    position: relative;
+    position: relative;
+    height: 200px;
+    background-color: #DDE5B6;
+    font-family: "Mv Boli";
     border-radius: 5%;
-}  
+  }
 
-.flex-child:first-child {
-    margin-right: 20px;
-} 
+  .logos{
+    size: 50%;
+  }
