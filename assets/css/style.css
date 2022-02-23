@@ -3,194 +3,232 @@ html {
 }
 
 header {
-    align-items: center;
+  align-items: center;
 }
 
-#outline{
-    background-color: #b5838d;
-    overflow: hidden;
-    text-align: center;
-    border: solid #6c584c 4px;
-    border-radius: 0 0 10px 10px;
+#outline {
+  background-color: #b5838d;
+  overflow: hidden;
+  text-align: center;
+  border: solid #6c584c 4px;
+  border-radius: 0 0 10px 10px;
 }
 
-#logo{
-    background-color: #A98467;
-    border-radius: 0 0 10px 10px;
-    color: #F0EAD2;
-    padding: 10px;
-    font-size: 40px;
-    font-family: Papyrus; 
-  }
+#logo {
+  background-color: #a98467;
+  border-radius: 0 0 10px 10px;
+  color: #f0ead2;
+  padding: 10px;
+  font-size: 40px;
+  font-family: Papyrus;
+}
 
 body {
-    background-color: #6C584C;
-  }
+  background-color: #6c584c;
+}
 
-  a{
-    color: #f0ead2;
-    background-color: #A98467;
-    font-size: 40px;
-    font-family: Papyrus;
-    border-radius: 5%;
-    display: inline-block;
-  }
+a {
+  color: #f0ead2;
+  background-color: #a98467;
+  font-size: 40px;
+  font-family: Papyrus;
+  border-radius: 5%;
+  display: inline-block;
+}
 
-  a:hover{
-    color: #adc178;
-    font-size: 50px;
-  }
+a:hover {
+  color: #adc178;
+  font-size: 50px;
+}
 
-#flex-container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding: 30px;
-    border: solid;
-    border-radius: 5%;
-    border-color: #6c584c;
-    align-items: center;
-    justify-content: center;
-  }
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 30px;
+  border: solid;
+  border-radius: 5%;
+  border-color: #6c584c;
+  align-items: center;
+  justify-content: center;
+}
 
-  .flex-item{
-    flex: 1 1 25%;
-    list-style-type: none;
-    padding: 10px;
-    justify-content: space-around;
-  }
+.flex-item {
+  flex: 1 1 25%;
+  list-style-type: none;
+  padding: 10px;
+  justify-content: space-around;
+}
 
-#about-me{
-    border-style: dashed #b5838d;
-    border-width: 3px;
-    padding: 20px;
-    display: flex;
-    box-shadow: 10px 10px 5px #ADC178;
-    margin: 40px;
-    position: relative;
-    position: relative;
-    height: 200px;
-    background-color: #DDE5B6;
-    font-family: "Mv Boli";
-    border-radius: 5%;
-    font-size: 1.3em;
-  }
+#about-me {
+  border-style: dashed #b5838d;
+  border-width: 3px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 10px 10px 5px #adc178;
+  margin: 40px;
+  position: relative;
+  position: relative;
+  height: 200px;
+  background-color: #dde5b6;
+  font-family: "Mv Boli";
+  border-radius: 5%;
+  font-size: 1.3em;
+}
 
 #trad-highway {
-    border-style: dashed #b5838d;
-    border-width: 3px;
-    padding: 20px;
-    display: flex;
-    box-shadow: 10px 10px 5px #ADC178;
-    margin: 40px;
-    position: relative;
-    position: relative;
-    height: 200px;
-    background-color: #DDE5B6;
-    font-family: "Mv Boli";
-    border-radius: 5%; 
-    font-size: 1.3em;
-
-  }
+  border-style: dashed #b5838d;
+  border-width: 3px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 10px 10px 5px #adc178;
+  margin: 40px;
+  position: relative;
+  position: relative;
+  height: 200px;
+  background-color: #dde5b6;
+  font-family: "Mv Boli";
+  border-radius: 5%;
+  font-size: 1.3em;
+}
 
 section p {
-    justify-content: right;
-    flex-wrap: wrap;
-    padding: 20px;
-  }
+  justify-content: right;
+  flex-wrap: wrap;
+  padding: 20px;
+}
 
-.image{
-    border: 3px solid;
-    margin: 10px;
-    border-radius: 5%;
-    margin: 10px;
-    display: block;
-  }
+.image {
+  border: 3px solid;
+  margin: 10px;
+  border-radius: 5%;
+  margin: 10px;
+  display: block;
+}
 
-  h4{
-    display: flex;
-    justify-content: space-around;
-    bottom: 0;
-  }
+h4 {
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+}
 
-  #portfolio{
-    border-style: dashed #b5838d;
-    border-width: 3px;
-    padding: 20px;
-    display: flex;
-    box-shadow: 10px 10px 5px #ADC178;
-    margin: 40px;
-    position: relative;
-    position: relative;
-    height: 200px;
-    background-color: #DDE5B6;
-    font-family: "Mv Boli";
-    border-radius: 5%;
-    font-size: 1.3em;
-  }
+#portfolio {
+  border-style: dashed #b5838d;
+  border-width: 3px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 10px 10px 5px #adc178;
+  margin: 40px;
+  position: relative;
+  height: 200px;
+  background-color: #dde5b6;
+  font-family: "Mv Boli";
+  border-radius: 5%;
+  font-size: 1.3em;
+  flex-direction: row;
+}
 
-  #contact{
-    border-style: dashed #b5838d;
-    border-width: 3px;
-    padding: 20px;
-    display: flex;
-    box-shadow: 10px 10px 5px #ADC178;
-    margin: 40px;
-    position: relative;
-    position: relative;
-    height: 200px;
-    background-color: #DDE5B6;
-    font-family: "Mv Boli";
-    border-radius: 5%;
-    justify-content: center;
-    font-size: 1.3em;
-  }
-  
-  .icons{
-    width: 75%;
-    align-content: center;
-  }
+.pro-1 {
+  display: flex;
+}
+.peak-perf{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
 
-  .fa-ul{
-    display: flex;
-    justify-content: space-around;
-  }
+.portfolio-image {
+  border: 3px solid;
+  margin: 10px;
+  border-radius: 5%;
+  margin: 10px;
+  display: block;
+  max-width: 50%;
+  max-height: 50%;
+  transition: transform 0.2s; /* Animation */
+}
 
-  .icons h2{
-    display: flex;
-    justify-content: center;
-    font-size: 1.3em;
-  }
+.portfolio-image:hover {
+  transform: scale(1.5);
+}
 
-  .icons p{
-    display: flex;
-    justify-content: center;
-  }
+.quiz-image {
+  border: 3px solid;
+  margin: 10px;
+  border-radius: 5%;
+  margin: 10px;
+  display: block;
+  max-width: 75%;
+  max-height: 75%;
+  transition: transform 0.2s;
+}
 
-  footer{
-    display: flex; 
-    background-color: #844506;
-    margin: 10px;
-    font-family: Papyrus;
-    padding: 5px;
-    font-size: 1em;
-    align-content: center;
-    justify-content: space-around;
-  }
+.quiz-image:hover {
+  transform: scale(1.5);
+}
 
-  footer p {
-    display: flex;
-    flex-wrap: wrap;
-  }
+#contact {
+  border-style: dashed #b5838d;
+  border-width: 3px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 10px 10px 5px #adc178;
+  margin: 40px;
+  position: relative;
+  position: relative;
+  height: 200px;
+  background-color: #dde5b6;
+  font-family: "Mv Boli";
+  border-radius: 5%;
+  justify-content: center;
+  font-size: 1.3em;
+}
 
-  .mission{
-    display: flex;
-    justify-content: center;
-    max-width: 70%;
-    margin: 3px;
-  }
+.icons {
+  width: 75%;
+  align-content: center;
+}
 
-  .farewell{
-    display: flex;
-    justify-content: flex-end;
-  }
+.fa-ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3em;
+}
+
+.icons p {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  background-color: #844506;
+  margin: 10px;
+  font-family: Papyrus;
+  padding: 5px;
+  font-size: 1em;
+  align-content: center;
+  justify-content: space-around;
+}
+
+footer p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  max-width: 70%;
+  margin: 3px;
+}
+
+.farewell {
+  display: flex;
+  justify-content: flex-end;
+}

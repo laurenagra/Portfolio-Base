@@ -1,0 +1,1 @@
+const redirect = document.getElementsByClassName()
