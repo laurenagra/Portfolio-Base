@@ -28,8 +28,7 @@ body {
 }
 
 a {
-  color: #f0ead2;
-  background-color: #a98467;
+  color: green;
   font-size: 40px;
   font-family: Papyrus;
   border-radius: 5%;
@@ -39,6 +38,16 @@ a {
 a:hover {
   color: #adc178;
   font-size: 50px;
+}
+
+h2 a{
+  border-radius: 5%;
+  font-size: 1em;
+}
+
+h2 a:hover{
+  color:darkgreen;
+  font-size: 1em;
 }
 
 #flex-container {
@@ -95,7 +104,7 @@ a:hover {
 section p {
   justify-content: right;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 10px;
 }
 
 .image {
@@ -120,11 +129,11 @@ h4 {
   box-shadow: 10px 10px 5px #adc178;
   margin: 40px;
   position: relative;
-  height: 300px;
+  height: 350px;
   background-color: #dde5b6;
   font-family: "Mv Boli";
   border-radius: 5%;
-  font-size: 1.3em;
+  font-size: 1.2em;
   flex-direction: row;
 }
 
@@ -134,14 +143,13 @@ h4 {
 .peak-perf{
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  margin: 3px;
 }
 
 .portfolio-image {
   border: 3px solid;
-  margin: 10px;
+  margin: 5px;
   border-radius: 5%;
-  margin: 10px;
   display: block;
   max-width: 50%;
   max-height: 50%;
@@ -151,6 +159,15 @@ h4 {
 .portfolio-image:hover {
   transform: scale(1.5);
 }
+.pro-2{
+  display: flex;
+}
+
+.quiz{
+  display: flex;
+  flex-direction: column; 
+  margin: 5px; 
+}
 
 .quiz-image {
   border: 3px solid;
@@ -158,13 +175,38 @@ h4 {
   border-radius: 5%;
   margin: 10px;
   display: block;
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 50%;
+  max-height: 50%;
   transition: transform 0.2s;
 }
 
 .quiz-image:hover {
   transform: scale(1.5);
+}
+
+.planner-image{ 
+  border: 3px solid;
+  margin: 10px;
+  border-radius: 5%;
+  margin: 10px;
+  display: block;
+  max-width: 40%;
+  max-height: 50%;
+  transition: transform 0.2s;
+}
+
+.planner-image:hover{
+  transform: scale(1.5);
+}
+
+.pro-3{
+  display: flex;
+}
+
+.planner{
+  display: flex;
+  flex-direction: column;
+  margin: 5px; 
 }
 
 #contact {
